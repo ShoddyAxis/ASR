@@ -1,0 +1,9 @@
+3 comunidadSNMP 8080 2 192.152.14.136
+4 comunidadSNMP 80 2 localhost
+5 SNMP 12 2 localhost
+7 comunidadSNMP 8080 2 192.152.14.136
+8 comunidad 80 2 localhost
+9 windows 8080 2 195.12.12.1
+10 comunidadSNMP 8080 2 localhost
+11 comunidadSNMP 8 2 192.168.100.3
+12 comunidadSNMP 12 2 192.168.100.111
