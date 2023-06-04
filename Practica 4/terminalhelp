@@ -1,0 +1,209 @@
+    1  sudo add-apt-repository ppa:gns3/ppa
+    2  sudo apt get update
+    3  sudo apt update
+    4  sudo apt install gns3-gui gns3-server
+    5  sudo apt install software-properties-common
+    6  sudo add-apt-repository ppa:deadsnakes/ppa
+    7  sudo apt install python3.9
+    8  python3.9 --version
+    9  sudo snap install pycharm-community --classic
+   10  sudo snap install pycharm-community --classic
+   11  cd..
+   12  cd ..
+   13  sudo apt-get install snmpd snmp
+   14  mv /etc/snmp/snmpd.conf /etc/snmp/snmp.conf.bck
+   15  # mv /etc/snmp/snmpd.conf /etc/snmp/snmp.conf.bck
+   16  snmpconf -r none -g basic_setup
+   17  clear
+   18  snmpconf -r none -g basic_setup
+   19  sudo service snmpd restart
+   20  snmpget -v1 -c cominidadSNMP localhost 1.3.6.1.2.1.1.1.0
+   21  snmpget -v1 -c comunidadSNMP localhost 1.3.6.1.2.1.1.1.0
+   22  sudo mv snmpd.conf /etc/snmp/snmpd.conf
+   23  sudo service snmpd restart
+   24  clear
+   25  snmpget -v1 -c comunidadSNMP localhost 1.3.6.1.2.1.1.1.0
+   26  ifconfig
+   27  sudo apt instakk net-tools
+   28  sudo apt install net-tools
+   29  ifconfig
+   30  snmpget -v1 -c comunidadWinASR 192.168.0.100 1.3.6.1.2.1.1.1.0
+   31  snmpget -v1 -c comunidadSNMP 192.168.0.104  1.3.6.1.2.1.1.1.0
+   32  ping 192.168.0.104
+   33  snmpget -v1 -c comunidadSNMP 192.168.0.104 1.3.6.1.2.1.1.1.0
+   34  sudo apt install python3-pip
+   35  pip3 install pysnmp
+   36  pip install pysnmp
+   37  sudo snap remove pycharm-community
+   38  sudo snap install pycharm-community --classic --edge
+   39  snmpwalk -v1 -c comunidadSNMP localhost  1.3.6.1.2.1.2.2
+   40  sudo apt updare
+   41  sudo apt update
+   42  sudo snap remove pycharm-community
+   43  sudo apt install python3-pip
+   44  sudo apt-get -y upgrade
+   45  snmpwalk -v1 -c comunidadSNMP localhost  1.3.6.1.2.1.2.21.
+   46  snmpwalk -v1 -c comunidadSNMP localhost  1.3.6.1.2.1.2.2.1.
+   47  snmpwalk -v1 -c comunidadSNMP localhost  1.3.6.1.2.1.2.2
+   48  sudo snap install pycharm-community --classic --edge
+   49  pip3 install pysnmp
+   50  sudo snap remove pycharm-community
+   51  ping 192.168.100.111
+   52  /bin/python3 /home/shoddy/Documents/Introduccion_SNMP-master/2-AdquisiciónSNMP/addagn.py
+   53  /bin/python3 /home/shoddy/Documents/Introduccion_SNMP-master/2-AdquisiciónSNMP/main.py
+   54  /bin/python3 /home/shoddy/Documents/Introduccion_SNMP-master/2-AdquisiciónSNMP/deleteagn.py
+   55  /bin/python3 /home/shoddy/Documents/Introduccion_SNMP-master/2-AdquisiciónSNMP/main.py
+   56  /bin/python3 /home/shoddy/Documents/Introduccion_SNMP-master/2-AdquisiciónSNMP/deleteagn.py
+   57  /bin/python3 /home/shoddy/Documents/Introduccion_SNMP-master/2-AdquisiciónSNMP/main.py
+   58  /bin/python3 /home/shoddy/Documents/Introduccion_SNMP-master/2-AdquisiciónSNMP/deleteagn.py
+   59  /bin/python3 /home/shoddy/Documents/Introduccion_SNMP-master/2-AdquisiciónSNMP/main.py
+   60  sudo snap remove pycharm-community
+   61  ./pycharm.sh 
+   62  pip install pysnmp
+   63  sudo snap install pycharm-community --classic --edge
+   64  snmpwalk -v1 -c comunidadSNMP localhost  1.3.6.1.2.1.2.2
+   65  snmpwalk -v1 -c comunidadSNMP localhost  1.3.6.1.2.1.2
+   66  snmpwalk -v1 -c comunidadSNMP localhost  1.3.6.1.2.1.2.2.1
+   67  snmpwalk -v1 -c comunidadSNMP localhost  1.3.6.1.2.1.2.2
+   68  snmpwalk -v1 -c comunidadSNMP localhost  1.3.6.1.2.1.2.1
+   69  snmpwalk -v1 -c comunidadSNMP localhost  1.3.6.1.2.1.2.2
+   70  snmpwalk -v1 -c comunidadSNMP localhost  1.3.6.1.2.1.1.1
+   71  snmpwalk -v1 -c comunidadSNMP localhost  1.3.6.1.2.1.1.2
+   72  snmpwalk -v1 -c comunidadSNMP localhost  1.3.6.1.2.1.1.3
+   73  snmpwalk -v1 -c comunidadSNMP localhost  1.3.6.1.2.1.1.4
+   74  snmpwalk -v1 -c comunidadSNMP localhost  1.3.6.1.2.1.1.5
+   75  snmpwalk -v1 -c comunidadSNMP localhost  1.3.6.1.2.1.1.6
+   76  ifconfig
+   77  timedatectl set-local-rtc 1
+   78  snmpwalk -v1 -c comunidadSNMP localhost  1.3.6.1.2.1.1.4
+   79  snmpwalk -v1 -c comunidadSNMP localhost  1.3.6.1.2.1.2.2
+   80  clear
+   81  pip install reportlab
+   82  pip install PyMuPDF
+   83  ifconfig
+   84  sudo service snmpd restart
+   85  snmpwalk -v1 -c comunidadSNMP 192.168.100.111 1.3.6.1.2.1.1.1.0
+   86  snmpwalk -v1 -c comunidadSNMP localhost 1.3.6.1.2.1.1.1.0
+   87  sudo apt-get update 
+   88  sudo apt-get update -y
+   89  sudo apt-get install -y libpython3-dev
+   90  sudo apt upgrade
+   91  sudo apt-get install librrd-dev
+   92  pip install rrdtool
+   93  /bin/python3 /home/shoddy/Documents/Introduccion_SNMP-master/3-IntroduccionRRD/EjemploRRD.py
+   94  ifconfig
+   95  snmpwalk -v1 -c ComunidadSNMP 172.100.86.143 1.3.6.1.2.1.1.1.0
+   96  ping 172.100.86.143
+   97  ifconfig
+   98  snmpwalk -v1 -c ComunidadSNMP 172.100.86.143 1.3.6.1.2.1.1.1.0
+   99  ipcpnfig
+  100  ifconfig
+  101  sudo service snmpd restart
+  102  ifconfig
+  103  sudo service snmpd restart
+  104  ifconfig
+  105  sudo service snmpd restart
+  106  snmpwalk -v1 -c comunidadSNMP localhost  1.3.6.1.2.1.1.2
+  107  ping localhost
+  108  snmpwalk -v1 -c comunidadSNMP localhost  1.3.6.1.2.1.1.2
+  109  snmpwalk -v1 -c ComunidadSNMP 172.100.86.143 1.3.6.1.2.1.1.1.0
+  110  snmpwalk -v1 -c ComunidadSNMP 192.168.100.1 1.3.6.1.2.1.1.1.0
+  111  snmpwalk -v1 -c comunidadSNMP 192.168.100.1 1.3.6.1.2.1.1.1.0
+  112  snmpwalk -v1 -c comunidadSNMP localhost  1.3.6.1.2.1.2.2
+  113  snmpget -v1 -c cominidadSNMP localhost 1.3.6.1.2.1.1.1.0
+  114  snmpget -v1 -c comunidadSNMP localhost 1.3.6.1.2.1.1.1.0
+  115  snmpget -v1 -c comunidadSNMP 192.168.100.1 1.3.6.1.2.1.1.1.0
+  116  snmpget -v1 -c MarianaJocelyn 192.168.100.1 1.3.6.1.2.1.1.1.0
+  117  snmpget -v1 -c MarianaJocelyn 192.168.100.111 1.3.6.1.2.1.1.1.0
+  118  snmpget -v1 -c comunidadSNMP 192.168.100.1 1.3.6.1.2.1.1.1.0
+  119  snmpwalk -v1 -c comunidadSNMP localhost  1.3.6.1.2.1.2.2
+  120  snmpwalk -v1 -c comunidadSNMP 192.168.100.111  1.3.6.1.2.1.2.2
+  121  ifconfig
+  122  ping 192.168.100.1
+  123  ping 192.168.100.111
+  124  ifconfig
+  125  ping 192.168.0.106
+  126  ifconfig
+  127  ping 192.168.0.103
+  128  ifconfig
+  129  snmpwalk -v1 -c comunidadSNMP localhost  1.3.6.1.2.1.25.3.3.1.2
+  130  snmpwalk -v1 -c comunidadSNMP localhost  1.3.6.1.2.1.2.2.1.10
+  131  sudo apt install partimage
+  132  sudo partimage
+  133  sudo tunctl -u shoddy
+  134  ifconfig
+  135  sudo apt-get install uml-utilities bridgr-utils
+  136  sudo apt-get install uml-utilities bridge-utils
+  137  sudo tunctl -u shoddy
+  138  sudo ifconfig tap0 192.168.202.5/24 up
+  139  sudo route add -net 192.168.202.0 netmask 255.255.255.0 gw 192.168.202.15dev tap0
+  140  sudo route add -net 192.168.202.0 netmask 255.255.255.0 gw 192.168.202.15 dev tap0
+  141  ip route
+  142  sudo ifconfig tap0 192.168.202.5/24 up
+  143  sudo route add -net 192.168.202.0 netmask 255.255.255.0 gw 192.168.202.15 dev tap0
+  144  ip route
+  145  ftp 192.168.202.15
+  146  sudo tunctl -u shoddy
+  147  sudo ifconfig tap0 192.168.202.5/24 up
+  148  sudo route add -net 192.168.202.0 netmask 255.255.255.0 gw 192.168.202.15dev tap0
+  149  sudo route add -net 192.168.202.0 netmask 255.255.255.0 gw 192.168.202.15 dev tap0
+  150  ftp 192.168.202.15
+  151  sudo ifconfig tap0 192.168.202.5/24 up
+  152  sudo route add -net 192.168.202.0 netmask 255.255.255.0 gw 192.168.202.15 dev tap0
+  153  ping 192.168.201.5
+  154  sudo ifconfig tap0 30.30.30.2/24  up
+  155  sudo tunctl -u shoddy
+  156  sudo ifconfig tap0 30.30.30.2/24  up
+  157  sudo route add -net 30.30.30.0 netmask 255.255.255.0 gw 30.30.30.1/24  dev tap0
+  158  sudo route add -net 30.30.30.0 netmask 255.255.255.0 gw 30.30.30.1 dev tap0
+  159  ftp 40.40.40.2
+  160  ifconfig
+  161  sudo tunctl -u shoddy
+  162  sudo ifconfig tap0 30.30.30.2/24  up
+  163  sudo route add -net 30.30.30.0 netmask 255.255.255.0 gw 30.30.30.1 dev tap0
+  164  ifconfig
+  165  ftp 40.40.40.2
+  166  ifconfig
+  167  sudo ifconfig tap0 30.30.30.2/24  up
+  168  sudo tunctl -u shoddy
+  169  sudo ifconfig tap0 30.30.30.2/24  up
+  170  sudo route add -net 30.30.30.0 netmask 255.255.255.0 gw 30.30.30.1 dev tap0
+  171  sudo ifconfig tap0 30.30.30.2/24  up
+  172  ifconfig
+  173  ping 30.30.30.2
+  174  sudo tunctl -u shoddy
+  175  sudo ifconfig tap0 30.30.30.2/24  up
+  176  sudo route add -net 30.30.30.0 netmask 255.255.255.0 gw 30.30.30.1/24  dev tap0
+  177  sudo route add -net 30.30.30.0 netmask 255.255.255.0 gw 30.30.30.1 dev tap0
+  178  ip route
+  179  ping 30.30.30.1
+  180  sudo tunctl -u shoddy
+  181  sudo ifconfig tap0 30.30.30.2/24  up
+  182  sudo route add -net 30.30.30.0 netmask 255.255.255.0 gw 30.30.30.1 dev tap0
+  183  ip route
+  184  ifconfig 
+  185  sudo route add -net 30.30.30.0 netmask 255.255.255.0 gw 30.30.30.1 dev tap0
+  186  sudo ifconfig tap0 30.30.30.2/24  up
+  187  sudo route add -net 30.30.30.0 netmask 255.255.255.0 gw 30.30.30.1 dev tap0
+  188  ping 30.30.30.1
+  189  sudo route add -net 40.40.40.0 netmask 255.255.255.0 gw 30.30.30.1 dev tap0
+  190  sudo route add -net 10.10.10.0 netmask 255.255.255.0 gw 30.30.30.1 dev tap0
+  191  sudo route add -net 20.20.20.0 netmask 255.255.255.0 gw 30.30.30.1 dev tap0
+  192  ip route
+  193  ping 30.30.30.1
+  194  ping 20.20.20.2
+  195  40.40.40.2
+  196  ping 40.40.40.2
+  197  ping 10.10.10.2
+  198  sudo route add -net 192.168.1.0 netmask 255.255.255.0 gw 30.30.30.1 dev tap0
+  199  ip route
+  200  sudo tunctl -u shoddy
+  201  ifconfig 
+  202  sudo ifconfig tap0 30.30.30.2/24  up
+  203  sudo route add -net 30.30.30.0 netmask 255.255.255.0 gw 30.30.30.1 dev tap0
+  204  ifconfig 
+  205  comand history
+  206  conmad history
+  207  conmand history
+  208  history
+
