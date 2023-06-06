@@ -1,41 +1,30 @@
-from ftplib import FTP
-import telnetlib
+from telnet import cliente
+from ftp import ftprecibe
+from ftp import ftpenvia
 
-HOST = "192.168.1.1" # Router 1
-HOST2 = "192.168.1.2"# Router 2
-user = "rcp"
-password = "rcp"
+menu = 0
+while 1:
+    print("Que es lo que desea hacer? \n "
+          "\t1.-Generar la configuracion de un dispositivo de manera remota \n"
+          "\t2.-Extraer el archivo de configuracion\n"
+          "\t3.-Importar el archivo configuracion")
+    menu = input("Seleccione la opcion deseada : ")
+    if menu == '1':
+        host = input("\tIngrese la direccion del host: ")
+        usuario = input("\tIngrese el usuario: ")
+        password = input("\tIngrese la contrasena: ")
+        cliente(host, usuario, password)
+        print("*************************************************************************")
+    if menu == '2':
+        host = input("\tIngrese la direccion del host: ")
+        usuario = input("\tIngrese el usuario: ")
+        password = input("\tIngrese la contrasena: ")
+        ftprecibe(host, usuario, password)
+        print("*************************************************************************")
+    if menu == '3':
+        host = input("\tIngrese la direccion del host: ")
+        usuario = input("\tIngrese el usuario: ")
+        password = input("\tIngrese la contrasena: ")
+        ftpenvia(host, usuario, password)
+        print("*************************************************************************")
 
-tn = telnetlib.Telnet(HOST)
-tn.read_until(b"User: ")
-tn.write(user.encode('ascii') + b"\n")
-tn.read_until(b"Password: ")
-tn.write(password.encode('ascii') + b"\n")
-print("Conexion correcta!")
-tn.write(b"en\n")
-print("Habilitado")
-tn.write(b"conf\n")
-print("Listo para configurar")
-tn.write(b"hostname R1\n")
-print("Nombre cambiado")
-tn.write(b"copy run start\n")
-print("Persistencia iniciada")
-tn.write(b"exit\n")
-print("Conexion cerrada")
-tn.close()
-
-ftp = FTP(HOST)
-ftp.login(user=user, passwd=password)
-print("Conexion FTP correcta")
-with open('startup-config', 'wb') as fp:
-    ftp.retrbinary('RETR startup-config', fp.write)
-    print("Archivo recibido")
-ftp.quit()
-print("Conexion FTP cerrada")
-ftp = FTP(HOST2)
-ftp.login(user=user, passwd=password)
-print("Segunda conexion FTP correcta")
-ftp.storbinary('STOR startup-config2', open('startup-config', 'rb'))
-print("Archivo subido!")
-ftp.quit()
-print("Segunda conexion FTP cerrada")
